@@ -1,0 +1,78 @@
+##final project P2
+
+import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+
+t.penup()
+t.forward(200)
+t.pendown()
+t.left(90)
+t.forward(200)
+t.backward(400)
+t.left(90)
+
+for i in range(3):
+    t.forward(400)
+    t.right(90)
+
+t.forward(200)
+t.right(90)
+t.forward(160)
+t.right(90)
+
+t.forward(140)
+t.right(90)
+t.forward(110)
+t.right(90)
+t.forward(75)
+t.right(90)
+t.forward(50)
+t.penup()
+t.forward(60)
+t.left(90)
+t.forward(65)
+t.pendown()
+
+t.forward(140)
+t.left(90)
+t.forward(110)
+t.left(90)
+t.forward(75)
+t.left(90)
+t.forward(50)
+
+t.right(90)
+t.penup()
+t.forward(65)
+t.left(90)
+t.forward(300)
+t.right(180)
+t.pendown()
+
+t.forward(160)
+t.left(90)
+t.forward(140)
+t.left(90)
+t.forward(110)
+t.left(90)
+t.forward(75)
+t.left(90)
+t.forward(55)
+t.right(90)
+
+t.penup()
+t.forward(65)
+t.left(90)
+t.forward(55)
+t.pendown()
+
+t.right(90)
+t.forward(140)
+t.right(90)
+t.forward(110)
+t.right(90)
+t.forward(75)
+t.right(90)
+t.forward(55)
+
